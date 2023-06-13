@@ -44,14 +44,14 @@
     font-weight:bold;
 }
 
-.card{
+/* .card{
     box-shadow: 6px 6px 6px 6px yellowgreen;
     width: 40%;
     height: 200px;
     border-radius: 5px;
-}
+} */
 
-.btn{
+/* .btn{
     background-color: yellowgreen;
     padding: 10px;
     justify-content: center;
@@ -61,7 +61,7 @@
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
-}
+} */
 
 .ban2 img{
     width:1300px;
@@ -74,4 +74,65 @@
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+.card{
+    width:300px; 
+    margin-top: 40px;
+    margin-left: 110px;
+    gap: 4rem;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.text1 p {
+    font-size: 20px;
+}
+
+.card img{
+    width: 300px;
+    height: 250px;
+    
+}
+
+.container{
+display: flex;
+margin-top: 90px;
+
+}
+
+.card img:hover{
+    cursor: pointer;
+    opacity: .7;
+   
+}
+
+.text1 p:hover{
+    color:red;
+    cursor: pointer;
+}
+
+.text1 button{
+    background-color: red;
+    color: #fff;
+    padding: 4px;
+}
+
+.text1 button:hover{
+    cursor: pointer;
+    opacity: .7;
+
+}
+
+.ft h2{
+    background-color: rgb(159, 252, 20);
+    text-align: center;
+    margin-top: 40px;
+    padding: 9px;
+}
+
+.addr p {
+    text-align: center;
+    line-height: 2.2;
+    font-size: 20px;
+    font-weight: bold;
 }
