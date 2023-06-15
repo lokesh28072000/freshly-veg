@@ -11,6 +11,16 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: fixed;
 }
+/* .top-1 h6{
+    background-color: greenyellow;
+    position: fixed;
+    color: black;
+    margin-top: 3%;
+    margin-left: 7%;
+    font-size: 15px;
+
+} */
+
 
 .top2 img{
     width:100%;
@@ -70,10 +80,15 @@
     justify-content: center;
     border-radius: 0%;
 }
-.ban2{
+/* .ban2{
     align-items: center;
     justify-content: center;
     display: flex;
+} */
+.ban2 img{
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover; */
 }
 
 .card{
@@ -135,4 +150,156 @@ margin-top: 90px;
     line-height: 2.2;
     font-size: 20px;
     font-weight: bold;
+}
+
+
+@media (min-width:300px){
+    .ban2 img{
+        width:100%;
+        display: flex;
+      }
+    
+      .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .card{
+        margin-left:10px;
+        width: 280px;
+      }
+      .card img{
+        width: 280px;
+      }
+
+}
+
+
+@media (min-width:768px){
+    .card{
+        width: 200px;
+        height: 250px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .card img{
+        width: 200px;
+      }
+
+      .ban2 img{
+        width: 100%;
+        height: 30%;
+        display:flex;
+      }
+
+      
+
+}
+
+@media (min-width:1024px){
+
+    .card{
+        width: 280px;
+        height: 290px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .card img{
+        width: 280px;
+        height: 200px;
+      }
+
+      .ban2 img{
+        width: 100%;
+        height: 30%;
+        display:flex;
+      }
+      
+      .addr p{
+        margin-top: 12px;
+      }
+}
+
+@media (min-width:1440px){
+
+    .card{
+        width: 350px;
+        height: 350px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .card img{
+        width: 350px;
+      }
+
+      .ban2 img{
+        width: 100%;
+        height: 30%;
+        display:flex;
+      }
+}
+
+@media (min-width:2560px){
+    .card{
+        width: 600px;
+        height: 600px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+    .card img{
+        width: 600px;
+        height: 450px;
+      }
+
+      .text1 h1{
+        font-size: 35px;
+      }
+
+      .text1 p{
+        font-size: 30px;
+      }
+      .text1 button{
+        font-size: 30px;
+        padding: 10px;
+      }
+
+      .top3 h4{
+        font-size: 40px;
+      }
+
+    .top4 p{
+        font-size: 60px;
+    }
+
+    .ft h2 {
+        font-size: 40px;
+    }
+
+    .addr p{
+        font-size: 40px;
+    }
+
+
 }
