@@ -10,6 +10,7 @@
     width: 100%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: fixed;
+    z-index: 1;
 }
 /* .top-1 h6{
     background-color: greenyellow;
@@ -118,6 +119,7 @@ margin-top: 90px;
 .card img:hover{
     cursor: pointer;
     opacity: .7;
+    z-index: 0;
    
 }
 
@@ -138,11 +140,18 @@ margin-top: 90px;
 
 }
 
-.ft h2{
+.ft h4{
     background-color: rgb(159, 252, 20);
     text-align: center;
     margin-top: 40px;
     padding: 9px;
+}
+
+.ft h3{
+  background-color: rgb(159, 252, 20);
+  text-align: center;
+  margin-top: 40px;
+  padding: 9px;
 }
 
 .addr p {
